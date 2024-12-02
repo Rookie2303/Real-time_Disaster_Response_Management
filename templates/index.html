@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+<title>Disaster Management System</title>
+</head>
+<body>
+    <div class = "header">
+        <img src="https://t4.ftcdn.net/jpg/09/39/75/01/240_F_939750157_7bjOkvjpUVDOUT2tyD8V9wHkSGcpsE6i.jpg">
+        <h2>Disaster Management System</h2>
+    </div>
+    <div class = "marquee">
+        <marquee>
+            All India Number(s):- 0863-237 7099 (Contact Support) || 08645-246 600 (Alternate Contact Support) || 
+            Emails :-
+            ed-apsdma@ap.gov.in (Contact Support) || 
+            seoc-apsdma@ap.gov.in (Alternate Contact Support) || 
+            commr_relief_rev@ap.gov.in (Query)        
+        </marquee>
+    </div>
+
+    <div class = "container">
+        <div class="card">
+            <h3>DashBoard</h3>
+            <a href = "{{url_for('dashboard') }}"><button>View DashBoard</button></a>
+        </div>
+        <div class="card">
+            <h3>Predict Disaster</h3>
+            <a href = "/cnn"><button>Predict</button></a>
+        </div>
+        <div class="card">
+            <h3>Predict Severity</h3>
+            <a href = "/nlp"><button>Predict</button></a>
+        </div>
+        <div class="card">
+            <h3>Volunteer Co-ordination</h3>
+            <a href = "/volunteer"><button>Assign Volunteers</button></a>
+        </div>
+        <div class="card">
+            <h3>Resource Planner</h3>
+            <a href = "/genai"><button>Generate Plan</button></a>
+        </div>
+    </div>
+
+</body>
+</html>

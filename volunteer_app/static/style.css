@@ -1,0 +1,104 @@
+/* Importing Trirong font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+  
+body {
+    font-family: "Trirong", serif;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bgm\ \(2\).jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+  
+/* Header/Blog Title */
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #1E3D59;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+  
+.header h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.marquee {
+    width: 100%;
+    background-color: rgb(89, 19, 19);
+    color : white;
+    height: auto;
+}
+.marquee marquee {
+    direction: left;
+}
+/* Card View */
+
+.card {
+    box-shadow: 0 5px 15px 0 rgb(0 0 0);
+    width: 270px;
+    height: 215px;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.9;
+}
+  
+.card p {
+    font-size: medium;
+}
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #186308;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    max-width: 1000px;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
